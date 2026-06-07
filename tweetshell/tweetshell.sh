@@ -22,12 +22,13 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 banner() {
 
 
-printf "\e[1;36m      _  _     _____                 _  \e[1;92m     _          _ _  \e[0m\n"
-printf "\e[1;36m    _| || |_  |_   _|               | | \e[1;92m    | |        | | | \e[0m\n"
-printf "\e[1;36m   |_  __  _|   | |_      _____  ___| |_\e[1;92m ___| |__   ___| | | \e[0m\n"
-printf "\e[1;36m    _| || |_    | \ \ /\ / / _ \/ _ \ __\e[1;92m/ __| '_ \ / _ \ | | \e[0m\n"
-printf "\e[1;36m   |_  __  _|   | |\ V  V /  __/  __/ |_\e[1;92m\__ \ | | |  __/ | | \e[0m\n"
-printf "\e[1;36m     |_||_|     \_/ \_/\_/ \___|\___|\__\e[1;92m|___/_| |_|\___|_|_| \e[0m\n"
+echo "		███╗   ██╗███████╗████████╗██╗  ██╗"
+echo "		████╗  ██║██╔════╝╚══██╔══╝╚██╗██╔╝"
+echo "		██╔██╗ ██║█████╗     ██║    ╚███╔╝ "
+echo "		██║╚██╗██║██╔══╝     ██║    ██╔██╗ "
+echo "		██║ ╚████║███████╗   ██║   ██╔╝ ██╗"
+echo -e "		╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝$nc $blue v2.beta$nc"
+
 printf "\n"
 printf "\e[1;77m\e[44m Twitter BruteForcer v1.0 Author: thelinuxchoice (Github/IG)\e[0m\n"
 printf "\n"
